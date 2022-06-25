@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import NavTabs from './components/NavTabs';
+import React from 'react';
 import PortfolioContainer from './components/PortfolioContainer';
 
 const App = () => <PortfolioContainer />

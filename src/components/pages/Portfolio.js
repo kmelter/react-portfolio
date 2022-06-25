@@ -1,18 +1,29 @@
 import React from "react";
+import dietApp from "../../assets/images/afternoon-refuge-37114.herokuapp.com_login (2).png";
+import cryptoDashboard from "../../assets/images/kmelter.github.io_crypto-dashboard_.png";
+
 
 export default function Portfolio() {
     return (
         <div class="work-examples">
           <section class="card" id="large-card">
-            <h2>Diet App - Group Project 2</h2>
-            <a href = "https://afternoon-refuge-37114.herokuapp.com/login" target="_blank">
-              <img src="./assets/images/afternoon-refuge-37114.herokuapp.com_login (2).png" alt="diet app" />
+            <h2>Diet App - Group Project</h2>
+            <img src={dietApp} alt=""></img>
+            <a href="https://afternoon-refuge-37114.herokuapp.com/login" target="_blank">
+                Deployed Application
+            </a>
+            <a href = "https://github.com/kmelter/full-stack-diet-app" target = "_blank">
+                GitHub Link
             </a>
           </section>
           <section class="card">
-            <h2>Crypto Dashboard - Group Project 1</h2>
-            <a href = "https://kmelter.github.io/crypto-dashboard/" target="_blank">
-              <img src="./assets/images/kmelter.github.io_crypto-dashboard_.png" alt="crypto dashboard" />
+            <h2>Crypto Dashboard - Group Project</h2>
+            <img src={cryptoDashboard} alt="" />
+            <a href="https://kmelter.github.io/crypto-dashboard/" target="_blank">
+                Deployed Application
+            </a>
+            <a href = "https://github.com/kmelter/crypto-dashboard" target = "_blank">
+                GitHub Link
             </a>
           </section>
           <section class="card">
@@ -47,7 +58,7 @@ export default function Portfolio() {
           </section>
           <section class="card">
             <h2>Password Generator</h2>
-            <img src="../../assets/images/password-generator-screenshot.png" alt="" />
+            <img src="./Otis.jpg" alt="" />
             <a href="https://kmelter.github.io/password-generator/" target="_blank">
                 Deployed Application
             </a>
