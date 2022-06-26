@@ -38,7 +38,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h1 className='contact-header' data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -59,6 +59,9 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+
+      <div className='direct-email'>Email me directly: kmelter97@gmail.com</div>
+
     </section>
   );
 }

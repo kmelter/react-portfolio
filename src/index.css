@@ -143,10 +143,14 @@ aside h2 {
   background-color: #75d6b9;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 22px;
 }
 
 .project-links a:link, .project-links a:visited, .project-links a:hover, .project-links a:link {
   text-decoration: none;
+  font-weight: bold;
+  color:rgb(55, 59, 59);
 }
 
 #large-card {
@@ -156,6 +160,10 @@ aside h2 {
 
 #large-card h2 {
   margin-top: 250px;
+}
+
+.work-header {
+  color:rgb(55, 59, 59);
 }
 
 /* Contact section */
@@ -182,10 +190,19 @@ aside h2 {
   padding-bottom: 5px;
 }
 
+.resume img {
+  height: 1200px;
+}
+
+.direct-email {
+  margin-top: 20px;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
   background-color: #75d6b9;
+  margin-top: 20px;
   padding: 10px;
   font-size: 25px;
 }
@@ -225,6 +242,19 @@ aside h2 {
 
   #large-card h2 {
       margin-top: 100px;
+  }
+
+  .contact-header {
+    padding-bottom: 5px;
+  }
+
+  .resume img {
+    height: 1000px;
+  }
+
+  .work-examples {
+    flex-direction: column;
+    width: 400px;
   }
 }
 
@@ -268,6 +298,10 @@ aside h2 {
 
   #large-card h2 {
       margin-top: 100px;
+  }
+
+  .resume img {
+    height: 600px;
   }
 
   .footer {
