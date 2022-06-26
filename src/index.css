@@ -10,6 +10,7 @@ body {
 header {
   background-image: url("./assets/images/cosmos.jpg");
   background-size: cover;
+  height: 200px;
 }
 
 header h1 {
@@ -21,31 +22,30 @@ header h1 {
   padding-left: 50px;
 }
 
-header img {
-  height: 200px;
-  width: 200px;
-  border: 3px solid #75d6b9;
-  margin: 20px;
-}
-
 .name-img {
   display: flex;
   justify-content: space-between;
 }
 
-nav {
+.nav {
   display: flex;
-  justify-content: flex-end;
   background-color: rgb(55, 59, 59);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
 }
 
-nav a {
+.nav a {
   color: #75d6b9;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
   border-bottom: 5px solid #75d6b9;
   margin: 5px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 main {
@@ -59,6 +59,20 @@ main h2 {
   background: #75d6b9;
   font-size: 15px;
   font-style: bold;
+}
+
+.about-me {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.about-me h1 {
+  margin-right: 200px;
+}
+
+.about-me p {
+  font-size: 17px;
 }
 
 aside {
@@ -100,6 +114,7 @@ aside h2 {
 }
 
 .card {
+  color: black;
   border-style: solid;
   border-color: #75d6b9;
   flex: 0 0 400px;
@@ -112,13 +127,26 @@ aside h2 {
   width: 100%;
   opacity: 50%;
   position: relative;
+  max-height: 170px;
 }
 
 .card h2 {
-  padding: 20px;
+  font-size: 20px;
+  background-color: #75d6b9;
+  padding: 10px;
   z-index: 9999;
   position: absolute;
   margin-top: 100px;
+}
+
+.project-links {
+  background-color: #75d6b9;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-links a:link, .project-links a:visited, .project-links a:hover, .project-links a:link {
+  text-decoration: none;
 }
 
 #large-card {
@@ -154,8 +182,20 @@ aside h2 {
   padding-bottom: 5px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #75d6b9;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
 /* Link interactions */
-nav a:hover {
+.nav a:hover {
   color: rgb(0, 183, 255);
   border-bottom: 5px solid rgb(0, 183, 255);
 }
@@ -195,11 +235,21 @@ nav a:hover {
       margin-left: 5px;
   }
   
-  main, nav {
+  main, .nav {
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
   }
   
+  .nav {
+    height: 250px;
+  }
+
+  .about-me h1 {
+    padding-bottom: 5px;
+    margin-right: 20px;
+  }
+
   aside {
       border-right: none;
       text-align: center;
@@ -218,6 +268,10 @@ nav a:hover {
 
   #large-card h2 {
       margin-top: 100px;
+  }
+
+  .footer {
+    font-size: 20px;
   }
 }
 

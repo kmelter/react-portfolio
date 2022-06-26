@@ -3,7 +3,7 @@ import selfPortrait from "../../assets/images/kmimage.PNG";
 
 export default function About() {
     return (
-        <div>
+        <div className="about-me">
             <h1>About Me</h1>
             <img src={selfPortrait} alt="" />
             <p>

@@ -3,17 +3,19 @@ import ProjectList from "./ProjectList";
 
 const Project = () => {
     return (
-        <div>    
+        <div className="work-examples">    
             {ProjectList.map(project => (
-                <section>
+                <section className="card">
                     <h2>{project.projectName}</h2>
                     <img src={project.image} alt="" />
-                    <a href={project.deployedApp} target="_blank">
-                        Deployed Application
-                    </a>
-                    <a href={project.gitHubPage} target = "_blank">
-                        GitHub Link
-                    </a>
+                    <div className="project-links">
+                        <a href={project.deployedApp} target="_blank">
+                            Deployed Application
+                        </a>
+                        <a href={project.gitHubPage} target = "_blank">
+                            GitHub Link
+                        </a>
+                    </div>
                 </section>
             ))}
         </div>
