@@ -6,6 +6,7 @@ import techBlog from "../assets/images/stark-hollows-07616.herokuapp.com_ (2).pn
 import noteTaker from "../assets/images/tranquil-coast-74175.herokuapp.com_.png";
 import weatherDashboard from "../assets/images/weather-dashboard-screenshot.png";
 import passwordGenerator from "../assets/images/password-generator-screenshot.png";
+import movieCuration from "../assets/images/movie-curation-icon.png";
 
 const ProjectList = [
     {
@@ -19,6 +20,12 @@ const ProjectList = [
         image: cryptoDashboard,
         deployedApp: 'https://kmelter.github.io/crypto-dashboard/',
         gitHubPage: 'https://github.com/kmelter/crypto-dashboard'
+    },
+    {
+        projectName: 'MooVee App - Group Project',
+        image: movieCuration,
+        deployedApp: 'https://calm-hollows-62553.herokuapp.com/',
+        gitHubPage: 'https://github.com/toddbauer86/moovee'
     },
     {
         projectName: 'Tech Blog',
