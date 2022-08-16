@@ -6,7 +6,7 @@ import techBlog from "../assets/images/stark-hollows-07616.herokuapp.com_ (2).pn
 import noteTaker from "../assets/images/tranquil-coast-74175.herokuapp.com_.png";
 import weatherDashboard from "../assets/images/weather-dashboard-screenshot.png";
 import passwordGenerator from "../assets/images/password-generator-screenshot.png";
-import movieCuration from "../assets/images/movie-curation-icon.png";
+import movieCuration from "../assets/images/colors.jpg";
 
 const ProjectList = [
     {
